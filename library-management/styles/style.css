@@ -2,39 +2,44 @@ body,
 html {
   height: 100%;
   margin: 0;
-  background-image: url("https://gobikrishnas.github.io/images/library.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qPqPiPTga6wEl-UMoUpE87l3MW_amESdGA&usqp=CAU"); 
 }
-p {
+h1 {
   width: 100%;
   font-family: Trebuchet MS;
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
-  color: white;
+  color: White;
 }
 
-.box-wrapper {
-  height: 150%;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
+table { 
+  width:80%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#row1,
-#row2 {
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
+td,th {
+  font-family: Trebuchet MS;
+  font-size: 30px;
+  text-align: center;
+  color: White;
 }
 
-#row1 div,
-#row2 div {
-  flex-grow: 1;
-  margin: 0 8px;
-  border: solid 1px red;
+a:hover{
+  background-color: #00ff80;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
 }
 
-#box1 {
-  background-color: white;
+a {
+  color: white;
+  text-decoration: none;
 }
+
+
+
