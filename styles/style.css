@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -19,14 +20,14 @@ body, html {
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
-a:hover {
-  background-color: #7FFFD4;
-  color: Black;
+a:link {
+  background-color: 	#00ff80;
+  color: white;
   padding: 14px 25px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
 }
 a {
-  color: white;
+  color: White;
+  text-decoration: none;
 }
