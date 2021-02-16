@@ -29,7 +29,7 @@ td,th {
   color: White;
 }
 
-a:hover{
+a:link{
   background-color: #00ff80;
   color: white;
   padding: 14px 25px;
