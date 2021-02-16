@@ -1,10 +1,5 @@
-.bgimg {
-  background-image: url('/w3images/forestbridge.jpg');
+body, html {
+  background-image: url("https://avante.biz/wp-content/uploads/Library-Backgrounds/Library-Backgrounds-008.jpg");
   height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
+  margin: 0;
 }
