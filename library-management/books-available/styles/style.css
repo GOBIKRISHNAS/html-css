@@ -4,7 +4,6 @@ html {
   margin: 0;
   background-image: url("https://ak.picdn.net/shutterstock/videos/11373452/thumb/1.jpg"); 
 }
-
 h1 {
   width: 100%;
   font-family: Trebuchet MS;
@@ -23,7 +22,6 @@ table {
   margin-right: auto;
   table-layout: auto;
 }
-
 td,th {
   font-family: Trebuchet MS;
   font-size: 30px;
