@@ -4,13 +4,13 @@ html {
   margin: 0;
   background-image: url("https://ak.picdn.net/shutterstock/videos/11373452/thumb/1.jpg"); 
 }
-
 h1 {
   width: 100%;
   font-family: Trebuchet MS;
   font-size: 40px;
   text-align: center;
   color: White;
+  margin-top: -5px;
 }
 
 table { 
@@ -22,12 +22,12 @@ table {
   margin-right: auto;
   table-layout: auto;
 }
-
 td,th {
   font-family: Trebuchet MS;
   font-size: 30px;
   text-align: center;
   color: White;
+  font-weight: bold;
 }
 
 h2 {
@@ -43,4 +43,19 @@ h3{
   font-size: 30px;
   text-align: right;
   color: White;
+}
+
+a:link {
+  background-color: #00ff80;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+a {
+  color: Black;
+  text-decoration: None;
+  font-weight: Bold;
+  font-size: 18px;
 }
